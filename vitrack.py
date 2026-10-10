@@ -54,28 +54,7 @@ st.markdown(
             background-color: #E8EEF8;
         }
     </style>
-    """, unsafe_allow_html=True
-
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap');
-      html, body, [class*="css"] { font-family: Inter, Prompt, sans-serif; }
-      .stApp { background: #f5f7fb; }
-      [data-testid="stSidebar"] { background: #ffffff; border-right: 1px solid #e8edf4; }
-      .hero { background: linear-gradient(120deg, #142d4e 0%, #244f78 58%, #337b91 100%); padding: 26px 30px; border-radius: 22px; color: white; margin-bottom: 20px; box-shadow: 0 12px 30px rgba(25, 55, 85, .12); }
-      .hero h1 { margin: 0; font-size: 30px; font-weight: 700; color: white; }
-      .hero p { margin: 8px 0 0 0; color: #dcebf5; font-size: 14px; }
-      .eyebrow { color: #b9dbe9; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
-      .section-title { font-size: 18px; font-weight: 700; color: #172b45; margin: 8px 0 3px 0; }
-      .muted { color: #718096; font-size: 12px; }
-      div[data-testid="stMetric"] { background: white; padding: 18px 20px; border: 1px solid #e7edf5; border-radius: 17px; box-shadow: 0 4px 14px rgba(31, 55, 80, .035); }
-      div[data-testid="stMetricLabel"] { color: #62748a; font-weight: 600; }
-      div[data-testid="stMetricValue"] { color: #172b45; }
-      .status-card { background: white; padding: 16px 18px; border-radius: 16px; border: 1px solid #e7edf5; margin-bottom: 8px; }
-      .status-label { font-size: 12px; color: #718096; }
-      .status-value { font-size: 17px; font-weight: 700; color: #172b45; margin-top: 4px; }
-      .footer-note { color: #7b8797; font-size: 11px; margin-top: 22px; }
-      div.stButton > button { border-radius: 10px; font-weight: 600; }
-    </style>
-    """,
+    """, 
     unsafe_allow_html=True,
 )
 
