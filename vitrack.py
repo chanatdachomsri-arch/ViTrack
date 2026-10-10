@@ -28,43 +28,7 @@ PRESSURE_CRITICAL_HIGH = 750
 
 st.markdown(
     """
-    </style>
-    /* ViTrack brand logo */
-.brand-container {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 14px 12px;
-    margin-bottom: 12px;
-    background: #142d4e;
-    border-radius: 16px;
-}
-
-.brand-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 46px;
-    height: 46px;
-    min-width: 46px;
-    background: #ffffff;
-    border-radius: 12px;
-    font-size: 27px;
-}
-
-.brand-name {
-    color: #ffffff;
-    font-size: 23px;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.brand-caption {
-    color: #b9dbe9;
-    font-size: 10px;
-    letter-spacing: 1px;
-    margin-top: 4px;
-}
+    <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap');
       html, body, [class*="css"] { font-family: Inter, Prompt, sans-serif; }
       .stApp { background: #f5f7fb; }
@@ -165,20 +129,8 @@ def make_demo_reading(profile: str):
 
 # Sidebar controls
 with st.sidebar:
-    st.markdown(
-        """
-        <div class="brand-container">
-            <div class="brand-icon">♥</div>
-            <div>
-                <div class="brand-name">ViTrack</div>
-                <div class="brand-caption">
-                    VITAL SIGN MONITORING
-                </div>
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    st.markdown("## 🫀 ViTrack")
+    st.caption("VITAL SIGN MONITORING")
     st.divider()
     st.markdown("### Simulation settings")
     profile = st.selectbox(
