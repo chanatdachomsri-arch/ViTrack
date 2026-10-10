@@ -54,7 +54,7 @@ st.markdown(
             background-color: #E8EEF8;
         }
     </style>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True
 
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap');
       html, body, [class*="css"] { font-family: Inter, Prompt, sans-serif; }
