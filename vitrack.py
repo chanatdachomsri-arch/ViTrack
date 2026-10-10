@@ -11,7 +11,7 @@ import streamlit as st
 # -------------------------------------------------
 st.set_page_config(
     page_title="ViTrack | Health Monitor",
-    page_icon="💗",
+    page_icon="🫀",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -29,6 +29,33 @@ PRESSURE_CRITICAL_HIGH = 750
 st.markdown(
     """
     <style>
+        /* Main app background */
+        .stApp {
+            background-color: #F5F7FB;
+        }
+
+        /* General text color */
+        .stApp, .stMarkdown, p, label {
+            color: #1E293B;
+        }
+
+        /* Main heading color */
+        h1 {
+            color: #142D4E;
+        }
+
+        /* Subheading colors */
+        h2, h3 {
+            color: #2563EB;
+        }
+
+        /* Sidebar background */
+        [data-testid="stSidebar"] {
+            background-color: #E8EEF8;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap');
       html, body, [class*="css"] { font-family: Inter, Prompt, sans-serif; }
       .stApp { background: #f5f7fb; }
