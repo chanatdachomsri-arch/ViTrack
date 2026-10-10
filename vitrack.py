@@ -21,7 +21,7 @@ HR_WARNING_LOW = 50
 HR_WARNING_HIGH = 100
 HR_CRITICAL_HIGH = 120
 TEMP_WARNING = 37.8
-TEMP_CRITICAL = 38.5
+TEMP_CRITICAL = 40
 PRESSURE_WARNING_LOW = 200
 PRESSURE_WARNING_HIGH = 650
 PRESSURE_CRITICAL_HIGH = 750
@@ -193,7 +193,7 @@ st.markdown(
     """
     <div class="hero">
       <div class="eyebrow">PERSONAL HEALTH TECHNOLOGY · SOFTWARE PROTOTYPE</div>
-      <h1>ViTrack Health Dashboard</h1>
+      <h1>ViTrack Dashboard</h1>
       <p>Vital sign overview, trend monitoring, and multi-sensor alerts — powered by simulated data.</p>
     </div>
     """,
