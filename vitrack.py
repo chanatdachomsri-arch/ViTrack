@@ -125,7 +125,7 @@ def make_demo_reading(profile: str):
     if profile == "Elevated heart rate":
         return random.randint(103, 126), round(random.uniform(36.3, 37.4), 1), random.randint(280, 580)
     if profile == "Temperature alert":
-        return random.randint(70, 95), round(random.uniform(37.8, 38.8), 1), random.randint(280, 580)
+        return random.randint(70, 95), round(random.uniform(37.8, 40.8), 1), random.randint(280, 580)
     if profile == "Grip signal alert":
         return random.randint(65, 92), round(random.uniform(36.2, 37.2), 1), random.choice([random.randint(100, 190), random.randint(660, 820)])
     if profile == "Multiple alerts":
