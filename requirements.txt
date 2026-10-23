@@ -3,3 +3,4 @@ pandas>=2.0
 plotly>=5.20
 # Optional for timed auto-refresh:
 # streamlit-autorefresh>=1.0.1
+firebase-admin
